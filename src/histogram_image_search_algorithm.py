@@ -135,7 +135,7 @@ def five_lowest(img_score):
 def save_dataframe(five_images):
     print("Saving five lowest images")
     data = pd.DataFrame(five_images, columns=['Filename', 'Score']) # Creating a dataframe with the two columns Filename and Score
-    outpath = os.path.join("out", "five_images.csv") # defining output path
+    outpath = os.path.join("out", "histogram_five_images.csv") # defining output path
     data.to_csv(outpath, index= False) # transforming my dataframe to a csv file, with no index.
 
 
@@ -153,15 +153,6 @@ def main_function():
 
 if __name__ == "__main__":
     main_function()
-
-
-
-
-
-
-
-
-
 
 
 
