@@ -1,7 +1,7 @@
 Filepath,Filename,Distance
-data/17_flowers/train/iris/image_0461.jpg,image_0461.jpg,0.0
-data/17_flowers/train/crocus/image_0393.jpg,image_0393.jpg,34.61
-data/17_flowers/train/sunflower/image_0791.jpg,image_0791.jpg,34.99
-data/17_flowers/train/lily_valley/image_0205.jpg,image_0205.jpg,35.09
-data/17_flowers/train/pansy/image_1303.jpg,image_1303.jpg,35.16
-data/17_flowers/validation/cowslip/image_1044.jpg,image_1044.jpg,35.17
+data/17_flowers/validation/daffodil/image_0003.jpg,image_0003.jpg,0.0
+data/17_flowers/train/crocus/image_0355.jpg,image_0355.jpg,3151.97
+data/17_flowers/train/bluebell/image_0318.jpg,image_0318.jpg,3229.36
+data/17_flowers/train/daisy/image_0879.jpg,image_0879.jpg,3235.93
+data/17_flowers/train/pansy/image_1352.jpg,image_1352.jpg,3249.5
+data/17_flowers/train/tigerlily/image_0541.jpg,image_0541.jpg,3265.93
