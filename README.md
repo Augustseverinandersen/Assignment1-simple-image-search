@@ -1,13 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10267670&assignment_repo_type=AssignmentRepo)
 # Building a simple image search algorithm
-https://www.kaggle.com/datasets/sanikamal/17-category-flower-dataset
-# Remember to give a path to the data
-
-
-
-# Important to run script histo before feature
-# Explain VGG16 (weights from imagenet)
-# What are distance and indicies
 
 
 ## Contribution 
