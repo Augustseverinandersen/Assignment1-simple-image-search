@@ -8,9 +8,9 @@
 - This assignment uses the pretrained convolutional neural network VGG16. VGG16 has 16 conolutional layers and is used for transfer learning.
 ### Data
 - As mentioned previously, the data is created by Nilsback and Zisserman from the University of Oxford. The data contains image of 17 different categories of common flowers in the UK. According to the authors, the images *"have large scale, pose and light variations.".* This creates a challenge as multiple factors have an input on how similar the images look. 
-- The zip file I am using is from Kaggle user Sani Kamal. The zip files contains a folder called *17_flowers*, which has two folders *train* and *validation*. Train and validation contain 17 folders each, of the 17 categories of flowers. In total each flower category has 80 flower images. In total there is over 1300 images of flowers.
-|Bluebell|Buttercup|Colts Foot|Cowslip|Crocus|Daffodil|Daisy|Dandelion|Fritillary|Iris|Lily of the Valley|Pansy|Snowdrop|Sunflower|Tigerlily|Tulip|Windflower|
-  
+- The zip file I am using is from Kaggle user Sani Kamal. The zip files contains a folder called *17_flowers*, which has two folders *train* and *validation*. Train and validation contain 17 folders each, of the 17 categories of flowers. In total each flower category has 80 flower images. In total there is over 1300 images of flowers: *Bluebell, Buttercup, Colts Foot, Cowslip, Crocus, Daffodil, Daisy, Dandelion, Fritillary, Ires, Lily of the Valley, Pansy, Snowdrop, Sunflower, Tiger Lily, Tulip, Windflower.
+
+
 ## Packages
 - Cv2
   - cv2 is being used to create histograms, normalize, and compare.
