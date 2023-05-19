@@ -34,7 +34,7 @@ def input_parse():
     # initialize the parser
     parser = argparse.ArgumentParser()
     # add arguments // "--name" is what you feed it in the command line
-    parser.add_argument("--choose_image", type=int, default = 250, help = "Chose a number from the image path list")
+    parser.add_argument("--choose_image", type=int, default = 28, help = "Chose a number from the image path list")
     # parse the arguments from command line
     args = parser.parse_args()
     return args
