@@ -10,6 +10,12 @@ Define a particular image that you want to work with, for the image extract the 
 |Filename1|--|
 |Filename2|--|
 
+|Filename|Distance]
+|---|---|
+|target|0.0|
+|filename1|---|
+|filename2|---|
+
 Create a script for image searching using a pre-trained CNN.
 ## 1.2 Machine Specifications and My Usage
 All the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark. Python version 1.73.1. It took 15 minutes to unzip the zip file and run both scripts, on a 16-CPU machine. 
