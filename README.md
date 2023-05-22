@@ -75,8 +75,9 @@ The reason that the histogram approach for finding similar images is not as effe
 
 When I ran the feature extraction script on the same image, all the scores were close together. The reason that feature extraction is a much more powerful way of finding similar images is that feature extraction takes more representations of the images, and is not as affected by changes to light or colour. Moreover, feature extraction, in this case, is using a pre-trained model, which has been trained on a diverse range of images, to get specific weights for predicting a correct image.
 ## 1.8 Usage
-To run the scripts in this repository, follow these steps: 
-OBS! Important to start with ```histogram_image_search_algorithm.py```, as this is the script that unzips the zip file.
+To run the scripts in this repository, follow these steps:
+ 
+***OBS!*** Important to start with ```histogram_image_search_algorithm.py```, as this is the script that unzips the zip file.
 - ```histogram_image_search_algorithm.py``` script:
   - Clone the repository.
   -	Get the zip file from [Kaggle](https://www.kaggle.com/datasets/sanikamal/17-category-flower-dataset), and place it in the data folder.
