@@ -20,7 +20,7 @@ To run the scripts, make sure to have Bash and Python 3 installed on your device
 The scripts in this repository were created in collaboration with fellow students. The data used in this assignment is accessed from [Kaggle](https://www.kaggle.com/datasets/sanikamal/17-category-flower-dataset), but created by [Maria-Elena Nilsback and Andrew Zisserman](https://www.robots.ox.ac.uk/~vgg/data/flowers/17/), from the Visual Geometry Group at the University of Oxford.
 This assignment uses the pre-trained convolutional neural network VGG16. 
 ### 1.3.1 Data
-As mentioned previously, the data is created by Nilsback and Zisserman from the University of Oxford. The data contains images of 17 different categories of common flowers in the UK. According to the authors, the images "have large scale, pose and light variations.". This creates a challenge, as images of the same category, can look different based on how the picture was taken.
+As mentioned previously, the data is created by Nilsback and Zisserman from the University of Oxford. The data contains images of 17 different categories of common flowers in the UK. According to the authors, the images _"have large scale, pose and light variations."_. This creates a challenge, as images of the same category, can look different based on how the picture was taken.
 The data I am using is from Kaggle user Sani Kamal. The data is structured as so: ![image](https://github.com/Augustseverinandersen/Assignment1-simple-image-search/assets/112094086/e0b54d1e-5ebc-4e9e-a026-f1ef29ac0e19)
 
 In total, each flower category has 80 flower images, which gives a total of over 1300 images of flowers. 
