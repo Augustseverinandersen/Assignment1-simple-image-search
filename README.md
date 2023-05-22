@@ -5,8 +5,7 @@
 Written by Ross:
 Define a particular image that you want to work with, for the image extract the colour histogram using OpenCv. Extract colour histograms for all the other images in the data. Compare the histogram of our chosen image to all the other histograms. For this, use the cv2.compareHist() function with the cv2.HISTCMP_CHISQR metric. Find the five images which are most similar to the target image. Save a CSV file to the folder called out, showing the five most similar images and the distance metrics:
 
-|Filename|Distance|
-|
+|Filename|Distance]
 |Target|0.0|
 |Filename1|--|
 |Filename2|--|
