@@ -4,10 +4,12 @@
 ## 1.1 Assignment Description 
 Written by Ross:
 Define a particular image that you want to work with, for the image extract the colour histogram using OpenCv. Extract colour histograms for all the other images in the data. Compare the histogram of our chosen image to all the other histograms. For this, use the cv2.compareHist() function with the cv2.HISTCMP_CHISQR metric. Find the five images which are most similar to the target image. Save a CSV file to the folder called out, showing the five most similar images and the distance metrics:
+
 |Filename|Distance|
 |Target|0.0|
 |Filename1|--|
 |Filename2|--|
+
 Create a script for image searching using a pre-trained CNN.
 ## 1.2 Machine Specifications and My Usage
 All the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark. Python version 1.73.1. It took 15 minutes to unzip the zip file and run both scripts, on a 16-CPU machine. 
