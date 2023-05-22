@@ -37,7 +37,7 @@ These are the packages that I used to make the scripts:
 - Sys is used to navigate the directory.
 - Argparse is used to create command-line arguments.
 - NumPy (version 1.23.5) from NumPy the *norm* function is being imported. Norm is used to normalize the feature vector in the ```helper_function.py script```.
--TensorFlow (version 2.12.0 & 0.13.0) from TensorFlow the following is being imported: _Hub_ is being used to get _VGG16_. _Load_img_ is used to load an image. _Img_to_array_ is being used to make the image into an array. _VGG16_ is the pre-trained model. _preprocess_input_ is used to make the images compatible with VGG16.
+- TensorFlow (version 2.12.0 & 0.13.0) from TensorFlow the following is being imported: _Hub_ is being used to get _VGG16_. _Load_img_ is used to load an image. _Img_to_array_ is being used to make the image into an array. _VGG16_ is the pre-trained model. _preprocess_input_ is used to make the images compatible with VGG16.
 - Scikit-learn (version 1.2.2) from scikit-learn _nearestNeighbors_ is being imported, to use _feature extractions_ and find the most similar images.
 ## 1.5 Repository Contents
 The repository contains the following folders and files.
