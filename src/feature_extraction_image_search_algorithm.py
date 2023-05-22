@@ -13,8 +13,7 @@ from tqdm import tqdm # Creates progress bars
 
 # tensorflow
 import tensorflow_hub as hub
-#from tensorflow.keras.preprocessing.image import (load_img, 
- #                                                 img_to_array)
+from tensorflow.keras.preprocessing.image import (load_img, img_to_array)
 from tensorflow.keras.applications.vgg16 import (VGG16)
                                                 # preprocess_input)
 

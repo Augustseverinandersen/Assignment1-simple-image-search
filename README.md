@@ -39,6 +39,7 @@ These are the packages that I used to make the scripts:
 - NumPy (version 1.23.5) from NumPy the *norm* function is being imported. Norm is used to normalize the feature vector in the ```helper_function.py script```.
 - TensorFlow (version 2.12.0 & 0.13.0) from TensorFlow the following is being imported: _Hub_ is being used to get _VGG16_. _Load_img_ is used to load an image. _Img_to_array_ is being used to make the image into an array. _VGG16_ is the pre-trained model. _preprocess_input_ is used to make the images compatible with VGG16.
 - Scikit-learn (version 1.2.2) from scikit-learn _nearestNeighbors_ is being imported, to use _feature extractions_ and find the most similar images.
+- Pillow is needed to use TensorFlows *load_img* function.
 ## 1.5 Repository Contents
 The repository contains the following folders and files.
 - ***data*** an empty folder where the zip file will be placed.
@@ -80,7 +81,8 @@ To run the scripts in this repository, follow these steps:
 ***OBS!*** Important to start with ```histogram_image_search_algorithm.py```, as this is the script that unzips the zip file.
 - ```histogram_image_search_algorithm.py``` script:
   - Clone the repository.
-  -	Get the zip file from [Kaggle](https://www.kaggle.com/datasets/sanikamal/17-category-flower-dataset), and place it in the data folder.
+  - Navigate to the correct directory.
+  -	Get the zip file from [Kaggle](https://www.kaggle.com/datasets/sanikamal/17-category-flower-dataset), and place it in the data folder (you might need to rename it).
   -	Run ```bash setup.sh``` in the command line. This will create a virtual environment and install the packages in the requirements.txt file.
   -	Run ```source ./assignment_1/bin/activate in the command-line```, to activate the virtual environment. 
   -	In the command-line run ```python3 src/histogram_image_search_algorithm.py --choose_image 2 --zip_name data/archive.zip``` to run the histogram script.
@@ -89,11 +91,3 @@ To run the scripts in this repository, follow these steps:
 
   -	Run ```python3 src/feature_extraction_image_search_algorithm.py --choose_image 2``` to run the feature extraction script.
     - The argparse ```--choose_image``` takes an integer number. This number corresponds to an index in the list. The default is 28, which corresponds to image_029.jpg. 
-
-
-
-
-
-
-
-

@@ -10,9 +10,6 @@ source ./assignment_1/bin/activate
 python3 -m pip install --upgrade pip
 python3 -m pip install -r requirements.txt
 
-# Run the code 
-#python3 src/image_search_algorithm.py --image_name image_0201.jpg --directory data/flowers/flowers
-
 # Deactivate the virtual environment.
 deactivate
 
