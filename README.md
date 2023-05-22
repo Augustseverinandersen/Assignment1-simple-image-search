@@ -83,11 +83,11 @@ OBS! Important to start with ```histogram_image_search_algorithm.py```, as this 
   3.	Run ```bash setup.sh``` in the command line. This will create a virtual environment and install the packages in the requirements.txt file.
   4.	Run ```source ./assignment_1/bin/activate in the command-line```, to activate the virtual environment. 
   5.	In the command-line run ```python3 src/histogram_image_search_algorithm.py --choose_image 2 --zip_name data/archive.zip``` to run the histogram script.
-    5.1 The argparse ```--choose_image``` takes an integer number. This number corresponds to an index in the list. The default is 28, which corresponds to image_029.jpg. 
-    5.2 The argparse ```--zip_name``` takes a string value. Here you should write the path to your zip file. Your zip file must be placed in the data folder. Thereby, you will write data/ZIP_FILE_NAME.zip.
+      5.1 The argparse ```--choose_image``` takes an integer number. This number corresponds to an index in the list. The default is 28, which corresponds to image_029.jpg. 
+      5.2 The argparse ```--zip_name``` takes a string value. Here you should write the path to your zip file. Your zip file must be placed in the data folder. Thereby, you will write data/ZIP_FILE_NAME.zip.
 
   6.	Run ```python3 src/feature_extraction_image_search_algorithm.py --choose_image 2``` to run the feature extraction script.
-    6.1 The argparse ```--choose_image``` takes an integer number. This number corresponds to an index in the list. The default is 28, which corresponds to image_029.jpg. 
+      6.1 The argparse ```--choose_image``` takes an integer number. This number corresponds to an index in the list. The default is 28, which corresponds to image_029.jpg. 
 
 
 
