@@ -13,7 +13,7 @@ Define a particular image that you want to work with, for the image extract the 
 
 Create a script for image searching using a pre-trained CNN.
 ## 1.2 Machine Specifications and My Usage
-All the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark. This script ran on Coder Python 1.73.1 and Python version 1.73.1. It took 15 minutes to unzip the zip file and run both scripts, on a 16-CPU machine. 
+All the computation done for this project was performed on the UCloud interactive HPC system, which is managed by the eScience Center at the University of Southern Denmark. This script ran on Coder Python 1.73.1 and Python version 3.9.2. It took 15 minutes to unzip the zip file and run both scripts, on a 16-CPU machine. 
 ## 1.2.1 Prerequisites 
 To run the scripts, make sure to have Bash and Python 3 installed on your device. The scripts have only been tested on Ucloud. 
 ## 1.3 Contribution
